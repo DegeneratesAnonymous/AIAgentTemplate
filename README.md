@@ -106,6 +106,23 @@ AIAgentTemplate/
 
 Pull requests are welcome. For major changes, please open a Work Order issue first to discuss what you would like to change.
 
+## Contribution Workflow
+
+1. **Fork** the repository on GitHub.
+2. **Create a feature branch** locally:  
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. **Run the test suite** to ensure everything passes:  
+   ```bash
+   # Example commands – adjust to your project's test runner
+   npm test
+   # or
+   pytest
+   ```
+4. **Open a pull request** against the `main` branch, referencing any relevant issue or work order.
+
+
 ## License
 
 [MIT](LICENSE)
